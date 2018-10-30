@@ -6,7 +6,7 @@ Every time a server starts, CFConfig will load configuration into your server by
 
 CFConfig will attempt to locate a JSON file containing exported server configuration. If it finds a JSON file, it will import it into the starting server as it comes up.
 
-Here are the locations CFConfig will look for a JSON file and the order it will look for them in. After CFConfig files a JSON file in one location, it stops looking.
+Here are the locations CFConfig will look for a JSON file and the order it will look for them in. After CFConfig finds a JSON file in one location, it stops looking.
 
 ### Environment Variable
 
